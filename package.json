@@ -1,0 +1,31 @@
+{
+  "name": "@neumatter/utilities",
+  "version": "1.0.0",
+  "description": "Utility package for copying case, getting values from option objects, and asserting types.",
+  "type": "module",
+  "author": "Cal Young",
+  "keywords": [
+    "utilities",
+    "neumatter",
+    "copy case",
+    "assert",
+    "types",
+    "options",
+    "object",
+    "nodejs",
+    "javascript",
+    "module",
+    "node",
+    "es6"
+  ],
+  "main": "./index.js",
+  "types": "./types/index.d.ts",
+  "standard": {
+    "ignore": [
+      "/types"
+    ]
+  },
+  "dependencies": {
+    "byteview": "^2.0.0"
+  }
+}
